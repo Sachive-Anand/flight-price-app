@@ -213,7 +213,7 @@ def load_model():
         #   4. Copy ONLY the part between /d/ and /view  →  1ABC123XYZ...
         #   5. Paste it below replacing PASTE_YOUR_FILE_ID_HERE
         # ──────────────────────────────────────────────────────────────────────
-        file_id = '18gJXx4HANAsAuRm9gvLfe5Qq9qvIpfd8/'
+        file_id = '18gJXx4HANAsAuRm9gvLfe5Qq9qvIpfd8'
 
         with st.spinner('⏳ Downloading model for first time, please wait...'):
             url = f'https://drive.google.com/uc?id={file_id}'
